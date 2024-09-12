@@ -1,0 +1,1576 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">9/11/2024 11:18:26 PM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">LoginAndExtractTokenTest</p>
+            <p class="text-sm">
+              <span>11:18:26 PM</span> / <span>13173.41 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">LoginAndExtractTokenTest</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:26 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:39 PM</span>
+                  <span class='badge badge-default'>13173.41 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:39</td>
+        <td>
+Access token extracted and stored: 18f03c2ab9d842a3875c218d53b5aa04-1        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_1</p>
+            <p class="text-sm">
+              <span>11:18:44 PM</span> / <span>4114.64 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_1</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:44 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:48 PM</span>
+                  <span class='badge badge-default'>4114.64 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:44</td>
+        <td>
+Running test with Amount: 101, Email: user1@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:45</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:47</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:47</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 52483169715688713727        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:48</td>
+        <td>
+Successfully requested payment.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_2</p>
+            <p class="text-sm">
+              <span>11:18:49 PM</span> / <span>1872.4 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_2</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:49 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:50 PM</span>
+                  <span class='badge badge-default'>1872.4 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:49</td>
+        <td>
+Running test with Amount: 102, Email: user2@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:49</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:49</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:50</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 12683961014648893927        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:50</td>
+        <td>
+Successfully requested payment.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_3</p>
+            <p class="text-sm">
+              <span>11:18:51 PM</span> / <span>1936.47 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_3</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:51 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:53 PM</span>
+                  <span class='badge badge-default'>1936.47 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:51</td>
+        <td>
+Running test with Amount: 103, Email: user3@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:52</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:52</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:52</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 62283167518618763237        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:53</td>
+        <td>
+Successfully requested payment.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_4</p>
+            <p class="text-sm">
+              <span>11:18:53 PM</span> / <span>1575.07 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_4</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:53 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:55 PM</span>
+                  <span class='badge badge-default'>1575.07 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:53</td>
+        <td>
+Running test with Amount: 104, Email: user4@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:54</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:54</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:55</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 62183860518608783437        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:55</td>
+        <td>
+Successfully requested payment.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_5</p>
+            <p class="text-sm">
+              <span>11:18:55 PM</span> / <span>1854 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_5</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:55 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:57 PM</span>
+                  <span class='badge badge-default'>1854 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:55</td>
+        <td>
+Running test with Amount: 105, Email: user5@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:56</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:56</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:57</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 82283962911688753637        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:57</td>
+        <td>
+Successfully requested payment.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_6</p>
+            <p class="text-sm">
+              <span>11:18:57 PM</span> / <span>1113.34 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_6</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:57 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:18:58 PM</span>
+                  <span class='badge badge-default'>1113.34 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:57</td>
+        <td>
+Running test with Amount: 106, Email: user6@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:58</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:58</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:58</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 42383266717678753837        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_7</p>
+            <p class="text-sm">
+              <span>11:18:58 PM</span> / <span>1037.92 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_7</h5>
+                  <span class='badge badge-success'>9/11/2024 11:18:58 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:00 PM</span>
+                  <span class='badge badge-default'>1037.92 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:18:58</td>
+        <td>
+Running test with Amount: 107, Email: user7@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:59</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:18:59</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:00</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 32782363910668673937        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_8</p>
+            <p class="text-sm">
+              <span>11:19:00 PM</span> / <span>1044.01 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_8</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:00 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:01 PM</span>
+                  <span class='badge badge-default'>1044.01 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:00</td>
+        <td>
+Running test with Amount: 108, Email: user8@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:00</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:00</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:01</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 52483860714608703147        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_9</p>
+            <p class="text-sm">
+              <span>11:19:01 PM</span> / <span>1279.16 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_9</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:01 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:02 PM</span>
+                  <span class='badge badge-default'>1279.16 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:01</td>
+        <td>
+Running test with Amount: 109, Email: user9@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:02</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:02</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:02</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 72383163713668743247        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_10</p>
+            <p class="text-sm">
+              <span>11:19:02 PM</span> / <span>1131.93 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_10</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:02 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:03 PM</span>
+                  <span class='badge badge-default'>1131.93 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:02</td>
+        <td>
+Running test with Amount: 110, Email: user10@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:03</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:03</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:03</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 02482164913658673347        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_11</p>
+            <p class="text-sm">
+              <span>11:19:04 PM</span> / <span>1046.52 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_11</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:04 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:05 PM</span>
+                  <span class='badge badge-default'>1046.52 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:04</td>
+        <td>
+Running test with Amount: 111, Email: user11@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:04</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:04</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:05</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 92083469012678893447        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_12</p>
+            <p class="text-sm">
+              <span>11:19:05 PM</span> / <span>1076.83 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_12</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:05 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:06 PM</span>
+                  <span class='badge badge-default'>1076.83 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:05</td>
+        <td>
+Running test with Amount: 112, Email: user12@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:05</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:06</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:06</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 22283766713618723647        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_13</p>
+            <p class="text-sm">
+              <span>11:19:06 PM</span> / <span>1558.54 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_13</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:06 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:08 PM</span>
+                  <span class='badge badge-default'>1558.54 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:06</td>
+        <td>
+Running test with Amount: 113, Email: user13@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:07</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:07</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:08</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 02983967616678753747        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_14</p>
+            <p class="text-sm">
+              <span>11:19:08 PM</span> / <span>2045.98 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_14</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:08 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:10 PM</span>
+                  <span class='badge badge-default'>2045.98 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:08</td>
+        <td>
+Running test with Amount: 114, Email: user14@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:09</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:10</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:10</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 62982160517698613057        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_15</p>
+            <p class="text-sm">
+              <span>11:19:10 PM</span> / <span>1125.07 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_15</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:10 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:11 PM</span>
+                  <span class='badge badge-default'>1125.07 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:10</td>
+        <td>
+Running test with Amount: 115, Email: user15@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:11</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:11</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:11</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 12682168513658643157        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_16</p>
+            <p class="text-sm">
+              <span>11:19:11 PM</span> / <span>1062.9 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_16</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:11 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:12 PM</span>
+                  <span class='badge badge-default'>1062.9 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:11</td>
+        <td>
+Running test with Amount: 116, Email: user16@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:12</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:12</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:12</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 82883861711668773257        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_17</p>
+            <p class="text-sm">
+              <span>11:19:13 PM</span> / <span>1146.63 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_17</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:13 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:14 PM</span>
+                  <span class='badge badge-default'>1146.63 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:13</td>
+        <td>
+Running test with Amount: 117, Email: user17@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:13</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:14</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:14</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 92983469518688703457        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_18</p>
+            <p class="text-sm">
+              <span>11:19:14 PM</span> / <span>1099.5 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_18</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:14 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:15 PM</span>
+                  <span class='badge badge-default'>1099.5 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:14</td>
+        <td>
+Running test with Amount: 118, Email: user18@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:15</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:15</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:15</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 32682560915648633557        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_19</p>
+            <p class="text-sm">
+              <span>11:19:15 PM</span> / <span>1432.09 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_19</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:15 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:17 PM</span>
+                  <span class='badge badge-default'>1432.09 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:15</td>
+        <td>
+Running test with Amount: 119, Email: user19@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:16</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:16</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:17</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 62983666817608763657        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithTokenAsync_Iteration_20</p>
+            <p class="text-sm">
+              <span>11:19:17 PM</span> / <span>1070.1 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithTokenAsync_Iteration_20</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:17 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:18 PM</span>
+                  <span class='badge badge-default'>1070.1 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:17</td>
+        <td>
+Running test with Amount: 120, Email: user20@example.com, CardNumber: 4111-1111-1111-1111, Expiration: 2/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:17</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:18</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:18</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 32382360513658613857        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TestApiWithToken_SpecialCardDetails</p>
+            <p class="text-sm">
+              <span>11:19:18 PM</span> / <span>1116.31 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">TestApiWithToken_SpecialCardDetails</h5>
+                  <span class='badge badge-success'>9/11/2024 11:19:18 PM</span>
+                  <span class='badge badge-danger'>9/11/2024 11:19:19 PM</span>
+                  <span class='badge badge-default'>1116.31 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>Sep 11, 2024 23:19:18</td>
+        <td>
+Running test with Amount: 100, Email: test@valid.com, CardNumber: 4222-2222-2222-2220, Expiration: 10/25        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:19</td>
+        <td>
+Successfully got merchant reference.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:19</td>
+        <td>
+Successfully got terminal policies.        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Sep 11, 2024 23:19:19</td>
+        <td>
+Successfully initiated installment plan. InstallmentPlanNumber: 32483069815638743957        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>9/11/2024 11:18:26 PM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>9/11/2024 11:19:19 PM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>22</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>22</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='0%'><b>69</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>21</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "LoginAndExtractTokenTest":13173.406,"TestApiWithTokenAsync_Iteration_1":4114.6415,"TestApiWithTokenAsync_Iteration_2":1872.4038,"TestApiWithTokenAsync_Iteration_3":1936.467,"TestApiWithTokenAsync_Iteration_4":1575.0667,"TestApiWithTokenAsync_Iteration_5":1854.0004,"TestApiWithTokenAsync_Iteration_6":1113.3439,"TestApiWithTokenAsync_Iteration_7":1037.919,"TestApiWithTokenAsync_Iteration_8":1044.0098,"TestApiWithTokenAsync_Iteration_9":1279.1617,"TestApiWithTokenAsync_Iteration_10":1131.9287,"TestApiWithTokenAsync_Iteration_11":1046.5234,"TestApiWithTokenAsync_Iteration_12":1076.8309,"TestApiWithTokenAsync_Iteration_13":1558.5423,"TestApiWithTokenAsync_Iteration_14":2045.9809,"TestApiWithTokenAsync_Iteration_15":1125.0654,"TestApiWithTokenAsync_Iteration_16":1062.9001,"TestApiWithTokenAsync_Iteration_17":1146.6301,"TestApiWithTokenAsync_Iteration_18":1099.4975,"TestApiWithTokenAsync_Iteration_19":1432.0917,"TestApiWithTokenAsync_Iteration_20":1070.1004,"TestApiWithToken_SpecialCardDetails":1116.3082 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 22,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 90,
+
+passParent:22,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:69,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:21,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
